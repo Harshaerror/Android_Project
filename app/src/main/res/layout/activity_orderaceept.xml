@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ab"
+                />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:text="Order Details"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp"
+                android:id="@+id/txt_deliveryccounnt"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="1dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Order Id"
+                        android:textSize="20dp"
+
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="                    Order Id"
+                        android:id="@+id/orderid"
+                        android:textSize="20dp"
+
+                        android:textColor="@android:color/black"/>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Item  Name"
+                        android:textSize="20dp"
+
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="             Order Id"
+                        android:id="@+id/dename"
+                        android:textSize="20dp"
+
+                        android:textColor="@android:color/black"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile Number"
+                        android:textSize="20dp"
+
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="        Order Id"
+                        android:id="@+id/mobilenumber"
+                        android:textSize="20dp"
+
+                        android:textColor="@android:color/black"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Paymnet"
+                        android:textSize="20dp"
+
+                        android:textColor="@android:color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="                   COD"
+
+                        android:textSize="20dp"
+
+                        android:textColor="@android:color/black"/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:id="@+id/btn_call"
+                android:layout_gravity="center_horizontal"
+
+                android:text="Call"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="makePhoneCall"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

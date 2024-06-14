@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+
+    <ViewFlipper
+        android:id="@+id/vpimg"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:autoStart="true"
+        android:flipInterval="3000">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/one" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/two" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/three" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/four" />
+
+
+    </ViewFlipper>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="Smart Farming Application"
+            android:textAllCaps="true"
+
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="ABOUT US"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/signUp_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Farming is the Prime Occupation in India in spite of this, today the people involved in farming belongs to the lower class and is in deep poverty. The Advanced techniques and the Automatedmachines which are leading the world to new heights, is been lagging when it is concerned tofarming, either the lack of awareness of the advanced facilities or the unavailability leads to the poverty in farming. Even after all the hard work and the production done by the farmers, intoday’s market the farmers are cheated by the Agents, leading to the poverty. Agro-marketingwould make all the things automatic which make easier serving as a best solution to all the problems. Farmer’s e-Market will serve as a way for the farmers to sell their products across thecountry just with some basic knowledge about how to use the Application. "
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

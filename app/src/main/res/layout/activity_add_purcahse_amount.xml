@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="320dp"
+                android:id="@+id/txt_itemanida"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
+                android:hint="Order ID"
+
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_itemida"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* This Id Automatically Genrated "
+                android:textSize="10dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="50dp"
+                android:textColor="@android:color/holo_red_dark"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="320dp"
+                android:id="@+id/txt_anaame"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
+                android:hint=" Product Name"
+
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_itemnamea"
+                    android:textColor="@color/black"
+                    android:enabled="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="320dp"
+                android:id="@+id/txt_type"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
+                android:hint="Product Type"
+
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_itemtypea"
+                    android:enabled="false"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="320dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/date"
+                android:layout_height="55dp"
+
+                android:hint="Shipping Date"
+
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_dshipatea"
+                    android:enabled="false"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="320dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/companyname"
+                android:layout_height="55dp"
+
+                android:hint="Product Amount Per.kg"
+
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_itemsizea"
+                    android:enabled="false"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="320dp"
+                android:id="@+id/mobile"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Product Quantity"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_itemqtya"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:enabled="false"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="320dp"
+                android:id="@+id/email"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:hint="Supply Amount"
+
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_yourlocationa"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:enabled="false"
+                    android:layout_height="50dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="320dp"
+                android:id="@+id/password_field_input_layout"
+                android:layout_height="55dp"
+
+                android:hint="Supply Location"
+                app:errorEnabled="true"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_itemshippa"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp"
+                    android:enabled="false"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="320dp"
+                android:id="@+id/txt_mobile"
+                android:layout_height="55dp"
+
+                android:hint="Enter Your Mobile"
+                app:errorEnabled="true"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_mob"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="320dp"
+                android:id="@+id/password_amount"
+                android:layout_height="55dp"
+
+                android:hint="Enter Your Amount Per.Kg"
+                app:errorEnabled="true"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txt_amounta"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:id="@+id/btn_acceptdelivery"
+                android:layout_gravity="center_horizontal"
+
+                android:text="Add Product Order"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

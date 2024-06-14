@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/ab"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+
+  >
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:id="@+id/btn_adminsignin"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@color/white"
+        android:text="Login As Farmer"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"/>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:id="@+id/btn_deliverysignin"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:text="Login As Customer"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>
